@@ -1,0 +1,25 @@
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { Comp4424Component } from './comp-4424.component';
+
+describe('Comp4424Component', () => {
+  let component: Comp4424Component;
+  let fixture: ComponentFixture<Comp4424Component>;
+
+  beforeEach(async(() => {
+    TestBed.configureTestingModule({
+      declarations: [ Comp4424Component ]
+    })
+    .compileComponents();
+  }));
+
+  beforeEach(() => {
+    fixture = TestBed.createComponent(Comp4424Component);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});

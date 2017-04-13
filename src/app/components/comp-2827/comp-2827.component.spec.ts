@@ -1,0 +1,25 @@
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { Comp2827Component } from './comp-2827.component';
+
+describe('Comp2827Component', () => {
+  let component: Comp2827Component;
+  let fixture: ComponentFixture<Comp2827Component>;
+
+  beforeEach(async(() => {
+    TestBed.configureTestingModule({
+      declarations: [ Comp2827Component ]
+    })
+    .compileComponents();
+  }));
+
+  beforeEach(() => {
+    fixture = TestBed.createComponent(Comp2827Component);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});

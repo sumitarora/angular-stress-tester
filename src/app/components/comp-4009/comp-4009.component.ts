@@ -1,0 +1,15 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-comp-4009',
+  templateUrl: './comp-4009.component.html',
+  styleUrls: ['./comp-4009.component.css']
+})
+export class Comp4009Component implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}

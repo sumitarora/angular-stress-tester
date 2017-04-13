@@ -1,0 +1,15 @@
+import { TestBed, inject } from '@angular/core/testing';
+
+import { Service30Service } from './service-30.service';
+
+describe('Service30Service', () => {
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      providers: [Service30Service]
+    });
+  });
+
+  it('should ...', inject([Service30Service], (service: Service30Service) => {
+    expect(service).toBeTruthy();
+  }));
+});
