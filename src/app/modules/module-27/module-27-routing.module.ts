@@ -1,0 +1,17 @@
+import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+
+import { Module27CompComponent } from './components/module-27-comp/module-27-comp.component';
+
+const routes: Routes = [
+  {
+    path: '',
+    component: Module27CompComponent
+  }
+];
+
+@NgModule({
+  imports: [RouterModule.forChild(routes)],
+  exports: [RouterModule]
+})
+export class Module27RoutingModule { }
