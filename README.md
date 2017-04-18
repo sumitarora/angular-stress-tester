@@ -1,4 +1,11 @@
-# Foo
+# Angular Stress Tester
+
+Angular stress tester application to load test build time for `ng build` command.
+
+Master Branch Consists:-
+- 5000 Components
+- 1000 Services
+- 100 Lazy Loaded Routes Each Dependent on 1 Component
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
