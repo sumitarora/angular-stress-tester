@@ -2,7 +2,7 @@
 
 Angular stress tester application to load test build time for `ng build` command.
 
-Master Branch Consists:-
+Current Branch Consists:-
 - 5000 Components
 - 1000 Services
 - 100 Lazy Loaded Routes Each Dependent on 1 Component
