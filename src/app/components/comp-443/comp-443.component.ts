@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Service443Service } from '../../services/service-443.service';
 
 @Component({
   selector: 'app-comp-443',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Comp443Component implements OnInit {
 
-  constructor() { }
+  constructor(private _service: Service443Service) { }
 
   ngOnInit() {
   }

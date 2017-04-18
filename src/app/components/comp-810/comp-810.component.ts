@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Service810Service } from '../../services/service-810.service';
 
 @Component({
   selector: 'app-comp-810',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Comp810Component implements OnInit {
 
-  constructor() { }
+  constructor(private _service: Service810Service) { }
 
   ngOnInit() {
   }
