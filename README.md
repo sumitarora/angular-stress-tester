@@ -6,6 +6,7 @@ Master Branch Consists:-
 - 5000 Components
 - 1000 Services
 - 100 Lazy Loaded Routes Each Dependent on 1 Component
+- 5000 images in assets
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
