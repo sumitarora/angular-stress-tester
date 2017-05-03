@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { Comp158Component } from './comp-158.component';
+import { Service158Service } from '../../services/service-158.service';
 
 describe('Comp158Component', () => {
   let component: Comp158Component;
@@ -8,7 +9,8 @@ describe('Comp158Component', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ Comp158Component ]
+      declarations: [ Comp158Component ],
+providers: [Service158Service],
     })
     .compileComponents();
   }));

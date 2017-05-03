@@ -8,7 +8,7 @@ describe('Comp338Component', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ Comp338Component ]
+      declarations: [ Comp338Component ],
     })
     .compileComponents();
   }));
